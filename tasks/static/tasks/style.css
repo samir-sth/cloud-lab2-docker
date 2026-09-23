@@ -1,0 +1,64 @@
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    color: #1f2937;
+}
+.card {
+    width: min(760px, 92%);
+    margin: 60px auto;
+    background: white;
+    padding: 32px;
+    border-radius: 16px;
+    box-shadow: 0 12px 35px rgba(0,0,0,.08);
+}
+.badge {
+    display: inline-block;
+    padding: 6px 10px;
+    border-radius: 999px;
+    background: #eef2ff;
+    font-size: 13px;
+}
+h1 { margin-bottom: 6px; }
+.subtitle { margin-top: 0; color: #6b7280; }
+.add-form {
+    display: flex;
+    gap: 10px;
+    margin: 28px 0;
+}
+.add-form input {
+    flex: 1;
+    padding: 12px 14px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+}
+button {
+    border: 0;
+    padding: 10px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.add-form button { background: #111827; color: white; }
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding: 14px 0;
+    border-bottom: 1px solid #e5e7eb;
+}
+.task.done span { text-decoration: line-through; color: #9ca3af; }
+.actions { display: flex; gap: 8px; }
+.actions form { margin: 0; }
+.secondary { background: #e5e7eb; }
+.danger { background: #fee2e2; }
+.empty { color: #9ca3af; }
+.architecture {
+    margin-top: 28px;
+    padding: 14px;
+    background: #f9fafb;
+    border-radius: 8px;
+    text-align: center;
+    font-family: monospace;
+}
